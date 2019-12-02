@@ -1,7 +1,7 @@
 # KotlinAndroidSnippets
 Android code snippets
 
-[Interacting with Apps](#Interacting-with-Apps)
+* [Interacting with Apps](#Interacting-with-Apps)
 
 ## Interacting with Apps
 
