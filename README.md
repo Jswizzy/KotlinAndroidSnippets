@@ -3,7 +3,8 @@ Android code snippets
 
 
 ** Intents
-`Kotlin
+
+```Kotlin
   fun Context.launchIntent(intent: Intent): Result<Unit> {
     return if (intent.resolveActivity(packageManager) != null) {
         startActivity(intent)
@@ -18,4 +19,4 @@ fun Context.isPackageExist(target: String): Boolean {
         info.packageName == target
     } != null
 }
-`
+```
