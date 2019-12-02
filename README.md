@@ -1,8 +1,9 @@
 # KotlinAndroidSnippets
 Android code snippets
 
+[Interacting with Apps](#Interacting-with-Apps)
 
-** Intents
+## Interacting with Apps
 
 ```Kotlin
   fun Context.launchIntent(intent: Intent): Result<Unit> {
